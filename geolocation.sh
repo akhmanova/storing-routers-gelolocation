@@ -1,4 +1,4 @@
-$GOOGLE_KEY="AIzaSyDIcQLFKJrvON96_G76_RATwjBk51XunLc"
+$GOOGLE_KEY="$AIzaSyDIcQLFKJrvON96_G76_RATwjBk51XunLc"
 
 $OUR_DIR="/home/eakhmanova/git_gd"
 
