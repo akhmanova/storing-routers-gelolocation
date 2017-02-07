@@ -7,7 +7,7 @@ AccessPoints[$N]=$AP
 N=$((N+1))
 done
 N=1
-cat grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*\) dBm/\1/'  | while read SL
+grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*\) dBm/\1/'  | while read SL
 do
 SignalLevel[$N]=$SL
 N=$((N+1))
