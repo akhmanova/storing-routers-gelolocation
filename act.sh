@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "'{\"considerIp\": \"false\", \"wifiAccessPoints\": [" > post_data.json
+echo -n "'{\"considerIp\": \"false\", \"wifiAccessPoints\": [" > post_data.json
 N=1
 while read AP
 do
