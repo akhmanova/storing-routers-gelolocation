@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "'{\"considerIp\": \"false\", \"wifiAccessPoints\": [" > post_data.json
 N=1
 while read AP
 do
@@ -16,6 +16,15 @@ done < <(grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*
 
 for i in $(seq 1 ${#AccessPoints[@]})
 do
-    echo "Access Point: ${AccessPoints[$i]}"
-    echo "Signal Level: ${SignalLevel[$i]}"
+    while [ $i -ne 1 ]
+    do
+        echo -n "," >> post_data.json
+        break
+    done
+    echo -n " { \"macAddress\": \"${AccessPoints[$i]}\", " >> post_data.json
+    echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": 0}" >> post_data.json
 done
+
+echo -n "]}'" >> post_data.json
+
+
