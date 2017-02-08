@@ -1,0 +1,148 @@
+wlp3s0    Scan completed :
+          Cell 01 - Address: CC:16:7E:70:C5:8E
+                    Channel:157
+                    Frequency:5.785 GHz (Channel 157)
+                    Quality=64/70  Signal level=-46 dBm  
+                    Encryption key:on
+                    ESSID:"GD-wifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000059a669247de
+                    Extra: Last beacon: 56688ms ago
+                    IE: Unknown: 000747442D77696669
+                    IE: Unknown: 01069824B048606C
+                    IE: Unknown: 070C525520240814840314950414
+                    IE: Unknown: 0B050F00068D5B
+                    IE: Unknown: 200103
+                    IE: Unknown: 2D1AEE191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (2) : 802.1x Proprietary
+                    IE: Unknown: 360330F401
+                    IE: Unknown: 3D169D050400000000000000000000000000000000000000
+                    IE: Unknown: 460573C0000000
+                    IE: Unknown: 7F080010080401400040
+                    IE: Unknown: 9606004096001000
+                    IE: Unknown: BF0CB259820FFAFF0000FAFF0000
+                    IE: Unknown: C005000000C0FF
+                    IE: Unknown: C303010202
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B49
+                    IE: Unknown: DD080040961340000000
+                    IE: Unknown: DD050040961401
+wlp3s0    Scan completed :
+          Cell 01 - Address: CC:16:7E:70:C5:8E
+                    Channel:157
+                    Frequency:5.785 GHz (Channel 157)
+                    Quality=64/70  Signal level=-46 dBm  
+                    Encryption key:on
+                    ESSID:"GD-wifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000059a669247de
+                    Extra: Last beacon: 56688ms ago
+                    IE: Unknown: 000747442D77696669
+                    IE: Unknown: 01069824B048606C
+                    IE: Unknown: 070C525520240814840314950414
+                    IE: Unknown: 0B050F00068D5B
+                    IE: Unknown: 200103
+                    IE: Unknown: 2D1AEE191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (2) : 802.1x Proprietary
+                    IE: Unknown: 360330F401
+                    IE: Unknown: 3D169D050400000000000000000000000000000000000000
+                    IE: Unknown: 460573C0000000
+                    IE: Unknown: 7F080010080401400040
+                    IE: Unknown: 9606004096001000
+                    IE: Unknown: BF0CB259820FFAFF0000FAFF0000
+                    IE: Unknown: C005000000C0FF
+                    IE: Unknown: C303010202
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B49
+                    IE: Unknown: DD080040961340000000
+                    IE: Unknown: DD050040961401
+
+wlp3s0    Scan completed :
+          Cell 01 - Address: CC:16:7E:70:C5:8E
+                    Channel:157
+                    Frequency:5.785 GHz (Channel 157)
+                    Quality=64/70  Signal level=-46 dBm  
+                    Encryption key:on
+                    ESSID:"GD-wifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000059a669247de
+                    Extra: Last beacon: 56688ms ago
+                    IE: Unknown: 000747442D77696669
+                    IE: Unknown: 01069824B048606C
+                    IE: Unknown: 070C525520240814840314950414
+                    IE: Unknown: 0B050F00068D5B
+                    IE: Unknown: 200103
+                    IE: Unknown: 2D1AEE191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (2) : 802.1x Proprietary
+                    IE: Unknown: 360330F401
+                    IE: Unknown: 3D169D050400000000000000000000000000000000000000
+                    IE: Unknown: 460573C0000000
+                    IE: Unknown: 7F080010080401400040
+                    IE: Unknown: 9606004096001000
+                    IE: Unknown: BF0CB259820FFAFF0000FAFF0000
+                    IE: Unknown: C005000000C0FF
+                    IE: Unknown: C303010202
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B49
+                    IE: Unknown: DD080040961340000000
+                    IE: Unknown: DD050040961401
+
+wlp3s0    Scan completed :
+          Cell 01 - Address: CC:16:7E:70:C5:8E
+                    Channel:157
+                    Frequency:5.785 GHz (Channel 157)
+                    Quality=64/70  Signal level=-46 dBm  
+                    Encryption key:on
+                    ESSID:"GD-wifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000059a669247de
+                    Extra: Last beacon: 56688ms ago
+                    IE: Unknown: 000747442D77696669
+                    IE: Unknown: 01069824B048606C
+                    IE: Unknown: 070C525520240814840314950414
+                    IE: Unknown: 0B050F00068D5B
+                    IE: Unknown: 200103
+                    IE: Unknown: 2D1AEE191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (2) : 802.1x Proprietary
+                    IE: Unknown: 360330F401
+                    IE: Unknown: 3D169D050400000000000000000000000000000000000000
+                    IE: Unknown: 460573C0000000
+                    IE: Unknown: 7F080010080401400040
+                    IE: Unknown: 9606004096001000
+                    IE: Unknown: BF0CB259820FFAFF0000FAFF0000
+                    IE: Unknown: C005000000C0FF
+                    IE: Unknown: C303010202
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B49
+                    IE: Unknown: DD080040961340000000
+                    IE: Unknown: DD050040961401
+
+
