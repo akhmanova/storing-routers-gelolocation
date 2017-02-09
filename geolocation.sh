@@ -7,7 +7,8 @@ OUR_DIR="/tmp/geolocation/$hostname"
 if [ ! -d ".git" ]
 then 
     git clone https://github.com/akhmanova/storing-routers-gelolocation.git
-    git push origin master
+else
+    git pull
 fi
 
 if [ ! -d "$hostname" ]
