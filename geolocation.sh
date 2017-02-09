@@ -2,6 +2,8 @@
 
 source vars
 
+OUR_DIR="/tmp/geolocation/$(hostname)"
+
 if [ ! -d ".git" ]
 then 
     git init
