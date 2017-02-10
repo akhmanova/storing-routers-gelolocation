@@ -22,7 +22,7 @@ do
 done < <(grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*\) dBm/\1/')
 
 N=1
-while read SL
+while read QL
 do
     Quality[$N]=$QL
     ((N++))
