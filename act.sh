@@ -8,11 +8,19 @@ do
 done < <(awk '/Address/ {print $5}' iwlist_example.log)
 
 N=1
+while read AP
+do
+    Channel[$N]=$CN
+    ((N++))
+done < <(grep -e "Channel:" iwlist_example.log | while read l1; do echo $l1; done  | sed -e 's/Channel://')
+
+N=1
 while read SL
 do
     SignalLevel[$N]=$SL
     ((N++))
 done < <(grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*\) dBm/\1/')
+
 
 for i in $(seq 1 ${#AccessPoints[@]})
 do
@@ -22,6 +30,8 @@ do
         break
     done
     echo -n " { \"macAddress\": \"${AccessPoints[$i]}\", " >> post_data.json
+    echo -n " { \"Channel\": \"${Channel[$i]}\", " >> post_data.json
+    
     echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": 0}" >> post_data.json
 done
 
