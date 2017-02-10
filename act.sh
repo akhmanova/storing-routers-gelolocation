@@ -8,7 +8,7 @@ do
 done < <(awk '/Address/ {print $5}' iwlist_example.log)
 
 N=1
-while read AP
+while read CN
 do
     Channel[$N]=$CN
     ((N++))
