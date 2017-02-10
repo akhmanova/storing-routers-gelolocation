@@ -1,4 +1,6 @@
 #!/bin/bash
+iwlist wlan0 scan > iwlist_example.log
+
 echo -n "{\"considerIp\": \"false\", \"wifiAccessPoints\": [" > post_data.json
 N=1
 while read AP
