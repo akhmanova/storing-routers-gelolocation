@@ -21,6 +21,12 @@ do
     ((N++))
 done < <(grep "Signal level" iwlist_example.log | sed -e 's/^.*Signal level=\(.*\) dBm/\1/')
 
+N=1
+while read SL
+do
+    Quality[$N]=$QL
+    ((N++))
+done < <(grep -e "Address:" -e "level=" -e "Channel:" iwlist_example.log | while read l1 && read l2 && read l3; do echo $l1 $l2 $l3; done | awk '{print $7;}' | sed -e 's/Quality=//' | sed -e 's/\(.*\)\/.*/\1/')
 
 for i in $(seq 1 ${#AccessPoints[@]})
 do
@@ -31,8 +37,9 @@ do
     done
     echo -n " { \"macAddress\": \"${AccessPoints[$i]}\", " >> post_data.json
     echo -n " { \"Channel\": \"${Channel[$i]}\", " >> post_data.json
-    
-    echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": 0}" >> post_data.json
+    signalToNoiseRatio[$i]=$(echo "$((-$level*70))/$c" | bc)
+
+    echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": $signalToNoiseRatio[$i]}" >> post_data.json
 done
 
 echo -n "]}'" >> post_data.json
