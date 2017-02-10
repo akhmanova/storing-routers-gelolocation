@@ -37,9 +37,9 @@ do
     done
     echo -n " { \"macAddress\": \"${AccessPoints[$i]}\", " >> post_data.json
     echo -n " { \"Channel\": \"${Channel[$i]}\", " >> post_data.json
-    signalToNoiseRatio[$i]=`echo "$((-$SignalLevel[$i]*70))/$Quality[$i]*70" | bc`
+    signalToNoiseRatio[$i]=`echo "$((-${SignalLevel[$i]}*70))/${Quality[$i]}*70" | bc`
 
-    echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": $signalToNoiseRatio[$i]}" >> post_data.json
+    echo -n "\"signalStrength\": ${SignalLevel[$i]}, \"signalToNoiseRatio\": ${signalToNoiseRatio[$i]}" >> post_data.json
 done
 
 echo -n "]}'" >> post_data.json
