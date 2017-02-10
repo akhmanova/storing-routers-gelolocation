@@ -2,13 +2,15 @@
 
 source vars
 hostname = `cat /etc/hostname`
-OUR_DIR="/tmp/geolocation/$hostname"
+OUR_DIR="/etc/geolocation/$hostname"
 
 if [ ! -d ".git" ]
 then 
     git clone https://github.com/akhmanova/storing-routers-gelolocation.git
-    git push origin master
+    git pull
 fi
+
+sh act.sh
 
 if [ ! -d "$hostname" ]
 then 
